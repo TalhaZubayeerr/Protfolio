@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+<!-- hero section -->
+
+<section class="hero">
+  <!-- header -->
+  <header id="mainHeader">
+    <div class="container headerContainer">
+      <div class="logo">Port<span>folio.</span></div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Protfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+      <a class="download-btn" href="resume.docx">
+        <i class="fa-solid fa-download"></i>&nbsp; Download CV
+      </a>
+    </div>
+  </header>
+  <!-- hero banner -->
+
+  <div class="container headercontainer">
+    <div class="hero-text" data-aos="fade-left">
+      <h1>HELLO I AM <br> <span id="typing"></span></h1>
+      <p>Digital Marketer, HTML Coder, PHP Programmer and Project Manager</p>
+      <div class="hero-buttons">
+        <button class="commonBtn"><span>Start Consulting</span></button>
+        <p class="status"><span>🟢</span> Available for Freelancer</p>
+      </div>
+    </div>
+
+    <div class="hero-image" data-aos="fade-right">
+      <img src="user.png">
+      <div class="stats-box">
+        <h3>10K</h3>
+        <p>Happy Satisfied <br> Customers</p>
+      </div>
+      <div class="circle"></div>
+      <div class="triangle"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- about section -->
+
+<section>
+  <div class="container">
+    <div class="left" data-aos="fade-left">
+      <h1 class="heading">About Me</h1>
+      <p class="subtitle">I like Creating a cool desing project.</p>
+
+      <div class="social-icons">
+        <button class="commonBtn"><span>Download CV</span></button>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+
+      <div class="info"><strong>Age:</strong> <span>29</span></div>
+      <div class="info"><strong>Residence:</strong> <span>Bangladesh</span></div>
+      <div class="info"><strong>Address:</strong> <span>Dhaka, Kuril Bishwaroad</span></div>
+      <div class="info"><strong>Email:</strong> <span>talhazubayer51658@gmail.com</span></div>
+      <div class="info"><strong>Phone:</strong> <span>+88013215051512</span></div>
+      <div class="info"><strong>Freelance:</strong> <span>Avalable</span></div>
+    </div>
+
+    <div class="skill-percent">
+  <!-- ১ম লাইন -->
+      <div class="skill-row">
+        <div class="skill-box" data-aos="fade-right" data-percent="75">
+          <div class="skill-content">
+            <div class="percent">75%</div>
+            <p>Digital Marketing</p>
+          </div>
+          <svg>
+            <defs>
+              <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y1="0%">
+                <stop offset="0%" stop-color="#7f00ff" />
+                <stop offset="100%" stop-color="#e100ff" />
+              </linearGradient>
+            </defs>
+            <rect x="2" y="2" width="calc(100% - 4px)" height="calc(100% - 4px)"></rect>
+          </svg>
+        </div>
+
+        <div class="skill-box" data-aos="fade-right" data-percent="100">
+          <div class="skill-content">
+            <div class="percent">100%</div>
+            <p>Development</p>
+          </div>
+          <svg>
+            <rect x="2" y="2" width="calc(100% - 4px)" height="calc(100% - 4px)"></rect>
+          </svg>
+        </div>
+      </div>
+
+      <!-- ২য় লাইন -->
+      <div class="skill-row">
+        <div class="skill-box" data-aos="fade-right" data-percent="68">
+          <div class="skill-content">
+            <div class="percent">68%</div>
+            <p>Marketing Ideas</p>
+          </div>
+          <svg>
+            <rect x="2" y="2" width="calc(100% - 4px)" height="calc(100% - 4px)"></rect>
+          </svg>
+        </div>
+
+        <div class="skill-box" data-aos="fade-right" data-percent="83">
+          <div class="skill-content">
+            <div class="percent">83%</div>
+            <p>Web Management</p>
+          </div>
+          <svg>
+            <rect x="2" y="2" width="calc(100% - 4px)" height="calc(100% - 4px)"></rect>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- about section -->
+
+<section class="service-section">
+  <small data-aos="zoom-in">WHAT WE DO</small>
+  <h1 class="heading" data-aos="zoom-in">Our Services</h1>
+  <br><br>
+
+  <div class="service-container" data-aos="fade-right">
+    <div class="service-card">
+      <div class="icon-box">
+        <i class="fa-solid fa-code"></i>
+      </div>
+      <p>Web Development</p>
+    </div>
+
+    <div class="service-card active">
+      <div class="icon-box active">
+        <i class="fa-brands fa-product-hunt"></i>
+      </div>
+      <p>Digital Marketing</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon-box">
+        <i class="fa-brands fa-uikit"></i>
+      </div>
+      <p>UI/UX Design</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon-box">
+        <i class="fa-brands fa-sketch"></i>
+      </div>
+      <p>Mobile Development</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon-box">
+        <i class="fa-brands fa-angular"></i>
+      </div>
+      <p>Angular</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon-box">
+        <i class="fa-brands fa-react"></i>
+      </div>
+      <p>React</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- timeline section -->
+
+
+<section class="timelinesection">
+  <small data-aos="zoom-in">PROFESSIONAL EXPERIENCE</small>
+  <h1 class="heading" data-aos="zoom-in">MY RESUME</h1>
+  <div class="container" data-aos="fade-right">
+    <div class="section">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>2012 to 2014</h3>
+          <p>Bachelor Degree</p>
+          <div class="card">
+            <h4>University of student</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat ducimus culpa sed ratione!.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <h3>2010 to 2012</h3>
+          <p>Master Degree</p>
+          <div class="card">
+            <h4>University of student</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat ducimus culpa sed ratione!.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <h3>2008 to 2010</h3>
+          <p>Advance post Graduate</p>
+          <div class="card">
+            <h4>University of student</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat ducimus culpa sed ratione!.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>2018 to present</h3>
+          <p>Web Designer</p>
+          <div class="card">
+            <h4>University of student</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat ducimus culpa sed ratione!.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <h3>2016 to 2018</h3>
+          <p>Junior UI/UX Designer</p>
+          <div class="card">
+            <h4>University of student</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat ducimus culpa sed ratione!.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <h3>2004 to 2016</h3>
+          <p>Senior UI/UX Designer</p>
+          <div class="card">
+            <h4>University of student</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat ducimus culpa sed ratione!.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- slider section -->
+
+<section class="sliderSection">
+  <div class="slider-container">
+    <div class="sliderLeft"data-aos="fade-right">
+      <h1>1M+ Statisfied Customers</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, nisi?</p>
+      <div class="buttons">
+        <button id="prevBtn">&#10094;</button>
+        <button id="nextBtn">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="sliderRight" data-aos="fade-left">
+      <div class="testimonial active">
+        <p>We help our clients from the definition of their strategy to the elization of their digital ecosystem, at the</p>
+        <div class="author">
+          <div class="author-icon">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+          <div class="author-info">
+            <h4>thomas smith</h4>
+            <p>Product Management at spotify</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <p>We help our clients from the definition of their strategy to the elization of their digital ecosystem, at the</p>
+        <div class="author">
+          <div class="author-icon">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+          <div class="author-info">
+            <h4>sarah jones</h4>
+            <p>Product Management at spotify</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial">
+        <p>We help our clients from the definition of their strategy to the elization of their digital ecosystem, at the</p>
+        <div class="author">
+          <div class="author-icon">
+            <i class="fa-solid fa-comments"></i>
+          </div>
+          <div class="author-info">
+            <h4>michel lee</h4>
+            <p>Product Management at spotify</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- filter GAllery section -->
+
+<section class="filter-section">
+  <small data-aos="zoom-in">Our Work</small>
+  <h2 class="heading" data-aos="zoom-in">Gallery</h2>
+  <br>
+
+  <div class="filters" data-aos="zoom-in">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="landing">Landing Page</button>
+    <button data-filter="app">App Design</button>
+    <button data-filter="saas">SaaS Product</button>
+    <button data-filter="dashboard">Dashboard</button>
+  </div>
+
+  <div class="gallery" data-aos="fade-right">
+    <div class="card" data-category="landing">
+      <img src="image-1.jpg">
+      <div class="card-body">
+        <div class="card-title">SaaS landing page</div>
+        <div class="card-category">Website/Landing Page</div>
+        <button onclick="openModal(this)">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="card" data-category="dashboard">
+      <img src="image-2.jpg">
+      <div class="card-body">
+        <div class="card-title">Education platform</div>
+        <div class="card-category">Website/Landing Page</div>
+        <button onclick="openModal(this)">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="card" data-category="app">
+      <img src="image-3.jpg">
+      <div class="card-body">
+        <div class="card-title">Education platform</div>
+        <div class="card-category">Website/Landing Page</div>
+        <button onclick="openModal(this)">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="card" data-category="landing">
+      <img src="image-4.avif">
+      <div class="card-body">
+        <div class="card-title">Education platform</div>
+        <div class="card-category">Website/Landing Page</div>
+        <button onclick="openModal(this)">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="card" data-category="saas">
+      <img src="image-6.avif">
+      <div class="card-body">
+        <div class="card-title">Education platform</div>
+        <div class="card-category">Website/Landing Page</div>
+        <button onclick="openModal(this)">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="card" data-category="landing">
+      <img src="image-5.avif">
+      <div class="card-body">
+        <div class="card-title">Education platform</div>
+        <div class="card-category">Website/Landing Page</div>
+        <button onclick="openModal(this)">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modal-img" src="image-1.jpg">
+  </div>
+</section>
+
+
+<!-- contact -->
+
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="contact-text" data-aos="fade-right">
+      <p class="small-heading">GET IN TOUCH</p>
+      <h2>Elevate your brans<br> <span>with me</span></h2>
+      <p class="description">
+        We help our clients from the definition of their strategy to the elization of their digital ecosystem, at the
+      </p>
+    </div>
+
+    <div class="contact-from" data-aos="fade-left">
+      <div class="from-row">
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Phone Number">
+      </div>
+
+      <div class="from-row">
+        <input type="email" placeholder="Your Email">
+        <input type="text" placeholder="Subject">
+      </div>
+      <textarea placeholder="Your Message"></textarea>
+      <button class="commonBtn" style="width: 200px;"><span>Appointment Now</span></button>
+    </div>
+
+  </div>
+</section>
+
+<!-- footer -->
+
+<button id="backToTop">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+<footer>
+  <p>@ 2025 Talha Zubayer | Desingned by Talha Zubayer</p>
+</footer>
+  
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
